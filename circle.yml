@@ -2,6 +2,11 @@ machine:
     services:
         - docker
 
+dependencies:
+    override:
+        - docker info
+        - docker build -t ashneo76/phantomjs .
+
 deployment:
     hub:
         branch: master

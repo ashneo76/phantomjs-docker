@@ -3,7 +3,7 @@
 The complete web testing package.
 
 - Debian (install your own languages)
-- JDK 7 (for Cucumber, etc.)
+- JDK 8 (for Cucumber, etc.)
 - PhantomJS 2.0.0
 - Firefox
 - Chrome

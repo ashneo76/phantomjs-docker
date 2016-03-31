@@ -41,7 +41,7 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-ENV PHANTOM_JS_TAG 2.0.0
+ENV PHANTOM_JS_TAG 2.1.1
 
 RUN git clone https://github.com/ariya/phantomjs.git /tmp/phantomjs && \
   cd /tmp/phantomjs && git checkout $PHANTOM_JS_TAG && \

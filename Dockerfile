@@ -45,7 +45,7 @@ ENV PHANTOM_JS_TAG 2.1.1
 
 RUN git clone https://github.com/ariya/phantomjs.git /tmp/phantomjs && \
   cd /tmp/phantomjs && git checkout $PHANTOM_JS_TAG && \
-  ./build.sh --confirm && mv bin/phantomjs /usr/local/bin && \
+  ./build.py --confirm && mv bin/phantomjs /usr/local/bin && \
   rm -rf /tmp/phantomjs
 
 # Run as non-root user
